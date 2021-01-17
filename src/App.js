@@ -67,6 +67,7 @@ class App extends Component {
       return (
         <div className='loader-container'>
           <div className='loader-box'>
+            {/* loading .... */}
             <img src={loader} alt='loading...' />
           </div>
         </div>

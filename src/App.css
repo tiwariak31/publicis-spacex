@@ -91,3 +91,19 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@media (min-width: 700px) {
+  body {
+    background: green;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    background: red;
+  }
+}
+@media (min-width: 1440px) {
+  body {
+    background: blue;
+  }
+}
