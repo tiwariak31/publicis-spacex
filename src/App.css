@@ -1,0 +1,93 @@
+body {
+  background-color: #f2f2f2 !important;
+}
+
+.App {
+  background-color: #f2f2f2;
+}
+
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-box {
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(22px + 2vmin);
+  color: #0a0a0a;
+  padding-left: 16px;
+}
+
+.link {
+  color: #61dafb;
+}
+
+.filter-card {
+  /* width: 18rem; */
+  margin-bottom: 15px;
+}
+
+.filter-header {
+  color: #111111;
+}
+
+.filter-heading {
+  text-align: center !important;
+  margin-top: 1rem;
+}
+
+.filter-heading-launch-year {
+  text-align: center !important;
+  margin-top: -1rem;
+}
+
+.filters-hr {
+  margin: 0.4rem;
+}
+
+.filter-button-container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Developers-name {
+  text-align: center !important;
+}
+
+.filter-button {
+  flex: 0 40%;
+  margin: 10px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
